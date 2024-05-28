@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+/* :root {
+    --pr-color : #0a0e54;
+} */
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+}
+
+/* Navbar Style*/
+
+.navbar {
+    z-index: 3;
+    top: 0px;
+}
+
+* {
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.img-hero {
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 20;
+    margin-right: 20px;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
+
+.button-secondary {
+    width: 133px;
+    height: 40px;
+    background-color: #ab4404;
+    color: var(--pr-color);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.button-primary {
+    width: 133px;
+    height: 40px;
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.button-lg-secondary {
+    width: 237px;
+    height: 70px;
+    background-color: #ab4404;
+    color: var(--pr-color);
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Hero Section */
+#hero {
+    /* background : linear-gradient(160deg, var(--pr-color), #000); */
+    background: url("../img/hero.png");
+    height: 120vh;
+    width: 100%;
+}
+
+.img-hero {
+    height: 100%;
+}
+
+.hero-tagline h1 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 72px;
+}
+
+.hero-tagline p {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    width: 85%;
+}
+
+
+
+/* Venue Section */
+#VENUE {
+    padding: 50px 0;
+}
+
+#VENUE h1 {
+    font-weight: 700;
+}
+
+
+h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--pr-color);
+}
+
+.sub-title {
+    font-size: 18px;
+    color: #000;
+}
+
+.card-venue {
+    padding: 20px;
+    width: 100%;
+    height: 50px;
+    font-family: "Poppins", sans-serif;
+}
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.card-text {
+    max-height: 50px;
+    /* Sesuaikan tinggi maksimum teks sesuai kebutuhan */
+    overflow: hidden;
+}
+
+
+
+
+/*.col-md-4 {
+    margin-right: px;/* Memberikan jarak vertikal antar kolom 
+}*/
+
+/* .card-venue img {
+    justify-content: center;
+    align-items: center;
+    margin: 50px -20px  10px 50px;
+    height: 300px;
+} */
+
+.card-venue h4 {
+    margin-right: -100px;
+}
+
+
+.with-padding-top {
+    padding-top: 56px;
+    /* Adjust this value based on your navbar height */
+}
+
+
+.card-img-top {
+    max-height: 200px;
+    /* Sesuaikan tinggi maksimum gambar sesuai kebutuhan */
+    object-fit: cover;
+}
