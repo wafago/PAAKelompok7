@@ -17,9 +17,10 @@
     <link rel="stylesheet" href="css/styles.css">
     <!-- Logo Title Bar -->
     <link rel="icon" href="img/Group 31.png" type="image/x-icon">
-    <title>Rumahku</title>
+    <title>Staywithme</title>
     
     <?php include('header.php');?>
+    
 </head>
 
 <body>
@@ -34,7 +35,7 @@
                 <div class="col-md-6 hero-tagline my-auto">
                     <h1>Membantu Menemukan Rumah Terbaik</h1>
                     <p><span class="fw-bold color:">RUMAHKU </span>hadir untuk memudahkan anda dalam menemukan tempat
-                        olahraga terbaik yang sesuai dengan kebutuhan dan keinginan anda</p>
+                        menginap terbaik yang sesuai dengan kebutuhan dan keinginan anda</p>
                     <button onclick="location.href='before-login/semua_lapangan.php'" class="button-lg-secondary"style="color:#fff">Temukan Venue</button>
                     <a href="before-login/semua_lapangan.php">
                         <img src="img/button arrow.png" alt="">
@@ -49,33 +50,33 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center" style="color:#ab4404">
-                    <h1>PILIH CABANG OLAHRAGA</h1>
-                    <span class="sub-title" style="color:#000">Pilih Cabang Olahraga Yang Ingin Anda Cari</span>
+                    <h1>APA YANG MAU ANDA CARI</h1>
+                    <span class="sub-title" style="color:#000">Pilih sesuai kebutuhan anda</span>
                 </div>
             </div>
             <div class="mx-auto my-3 px-4">
                 <div class="row d-flex w-100 px-5 mx-auto ">
                     <div class=" mx-3 ms-4" style="width: 17rem;">
-                        <img src="img/basket.png" class="card-img-top" alt="...">
+                        <img src="uploads/bg/kost.jpg" class="card-img-top" alt="...">
                         <div class="card-body text-center">
                             <a href="before-login/lapangan_basket.php" style="text-decoration: none;">
-                                <h2 class="card-text1 text-center" style="color:#333">BASKET</h2>
+                                <h2 class="card-text1 text-center" style="color:#333">KOST</h2>
                             </a>
                         </div>
                     </div>
                     <div class=" mx-4" style="width: 17rem;">
-                        <img src="img/bultang.png" class="card-img-top" alt="...">
+                        <img src="uploads/bg/homestay.jpg" class="card-img-top" alt="...">
                         <div class="card-body text-left">
                             <a href="before-login/lapangan_badminton.php" style="text-decoration: none;">
-                                <h2 class="card-text1 text-left" style="color:#333">BADMINTON </h2>
+                                <h2 class="card-text1 text-left" style="color:#333">HOMESTAY </h2>
                             </a>
                         </div>
                     </div>
                     <div class=" mx-3" style="width: 17rem;">
-                        <img src="img/sepak.png" class="card-img-top" alt="...">
+                        <img src="uploads/bg/vila.jpg" class="card-img-top" alt="...">
                         <div class="card-body text-center">
                             <a href="before-login/lapangan_futsal.php" style="text-decoration: none;">
-                                <h2 class="card-text1 text-center" style="color:#333">FUTSAL</h2>
+                                <h2 class="card-text1 text-center" style="color:#333">Vila</h2>
                             </a>
                         </div>
                     </div>

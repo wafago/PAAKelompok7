@@ -2,8 +2,8 @@
     <div class="container">
         <a class="navbar-brand" href="#">
 
-            <img src="img/Group 31.png" alt="" width="30" class="d-inline-block align-text-top">
-            <span style="margin-left: 10px;">BOLARAGA</span>
+            <img src="uploads/logo/image.png" alt="" width="30" class="d-inline-block align-text-top">
+            <span style="margin-left: 10px;">COZYROOM</span>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

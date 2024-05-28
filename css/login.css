@@ -13,7 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url("../img/pexels-spencer-lind-1331750.jpg");
+    background: url("../uploads/bg/hero.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -24,7 +24,7 @@ body {
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-    color: #fff;
+    color: #2c2121;
     border-radius: 10px;
     padding: 30px 40px;
 }
@@ -44,20 +44,21 @@ body {
 .input-box input {
     width: 100%;
     height: 100%;
-    background: transparent;
+    background: #fff;
     border: none;
+    border-color: #312525;
     outline: none;
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 16px;
     font-size:16px;
-    color:#fff;
+    color:#312525;
     padding: 20px 45px 20px 20px;
 
 
 }
 
 .input-box input::placeholder{
-    color: #fff;
+    color: #312525;
 }
 
 .input-box i {
@@ -72,14 +73,14 @@ body {
 .wrapper .btn {
     width: 100%;
     height: 45px;
-    background: #ffffff;
+    background: #312525;
     border: none;
     outline: none;
     border-radius: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, -1);
     cursor: pointer;
     font-size: 16px;
-    color: #000000;
+    color: #fff;
     font-weight: 600;
 
 }

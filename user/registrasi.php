@@ -1,7 +1,3 @@
-<?php
-    session_start(); //untuk menyimpan session_startnya untuk login
-    require "../config/koneksi.php";
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,13 +7,13 @@
     <title>Register Form</title>
     <link rel="stylesheet" href="../css/register.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="icon" href="../img/Group 31.png" type="image/x-icon">
+    <link rel="icon" href="../uploads/logo/image.png" type="image/x-icon">
     <title>Bolaraga</title>
 </head>
 <body>
     <div class="wrapper">
         <form action="" method="post">
-            <h1>Daftar Akun</h1>
+            <h1>Daftar CozyRoom</h1>
             <div class="input-box">
                 <input type="text" placeholder="Name" name="name" id="name" required>
                 <i class='bx bxs-user'></i>
